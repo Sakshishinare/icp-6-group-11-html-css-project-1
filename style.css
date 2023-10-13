@@ -36,7 +36,7 @@ padding: 5px 20px;
 font-weight: bold;
 margin-left: 15px;
 cursor: pointer;
-background-color: rgb(168, 206, 168);
+background-color: rgb(53, 123, 53);
 border-radius: 20px;
 color: black;
 }
@@ -64,7 +64,7 @@ flex-wrap: wrap;
     margin-left: 150px;
     font-size: 70px;
     font-weight: bold;
-    animation: textWave 3s infinite;
+    animation: textWave 3s infinite;
 
 }
 
