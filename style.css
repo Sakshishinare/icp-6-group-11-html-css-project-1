@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(168, 206, 168);
+}
+.abc{
+    height: 500px;
+    width: 500px;
+}
+.navbar{
+    background-color: rgb(207, 232, 207); 
+  height: 50px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;       
+}
+.navbar-icon{
+    height: 50px;
+}
+.navbar-brand-name1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3, 142, 3);
+    font-weight: bold;
+   margin-left: 3px;
+}.navbar-brand-name2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+   margin-right: 200px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 5px 20px;
+font-weight: bold;
+margin-left: 15px;
+cursor: pointer;
+background-color: rgb(168, 206, 168);
+border-radius: 20px;
+color: black;
+}
+.navbar-menu:hover{
+    background-color:greenyellow;
+    box-shadow:0px 0px 5px 2px #fff;
+    padding: 7px 25px;
+    transition: 0.6s;
+}
+.header-container{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.shop-img{
+    width:1517px;
+    height: 635px;
+    margin-top: 2px;
+
+}
+
+.header-title{
+    margin-top: -600px;
+    margin-left: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    animation: textWave 3s infinite;
+
+}
+
+.header-title:hover{
+    text-shadow: 0 0 10px gray;
+}
