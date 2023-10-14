@@ -92,6 +92,10 @@ flex-wrap: wrap;
 }
 .shop-container{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .shop-menu{
     margin-left: 70px;
