@@ -41,12 +41,7 @@ color: white;
 text-decoration: none;
 cursor: pointer;
 }
-.navbar-menu:hover{
-    background-color:rgb(173, 217, 106);
-    box-shadow:0px 0px 5px 2px #fff;
-    padding: 7px 25px;
-    transition: 0.6s;
-}
+
 .navbar-menu-list{
     display: none;
     position: absolute;
@@ -78,9 +73,7 @@ flex-wrap: wrap;
 
 }
 
-.header-title:hover{
-    text-shadow: 0 0 10px gray;
-}
+
 .shop1{
     margin-left: -450px;
     font-size: 30px;
