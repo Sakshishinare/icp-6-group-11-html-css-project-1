@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(168, 206, 168);
+}
+.navbar{
+    background-color: rgb(207, 232, 207); 
+  height: 50px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;       
+}
+.navbar-icon{
+    height: 50px;
+}
+.navbar-brand-name1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3, 142, 3);
+    font-weight: bold;
+   margin-left: 3px;
+}.navbar-brand-name2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+   margin-right: 200px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 5px 20px;
+font-weight: bold;
+margin-left: 15px;
+cursor: pointer;
+background-color: rgb(53, 123, 53);
+border-radius: 20px;
+color: black;
+color: white;
+}
+.navbar-menu-cobtainer a{
+text-decoration: none;
+cursor: pointer;
+}
+.navbar-menu:hover{
+    background-color:rgb(173, 217, 106);
+    box-shadow:0px 0px 5px 2px #fff;
+    padding: 7px 25px;
+    transition: 0.6s;
+}
+.navbar-menu-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.header-container{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.shop-img{
+    width:1517px;
+    height: 635px;
+    margin-top: 2px;
+
+}
+
+.header-title{
+    margin-top: -600px;
+    margin-left: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    animation: textWave 3s infinite;
+
+}
+
+.header-title:hover{
+    text-shadow: 0 0 10px gray;
+}
+.shop1{
+    margin-left: -450px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+}
+.shop-container{
+ margin-top: 170px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.shop-menu{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.shop-img1{
+    height: 250px;
+    width: 300px;
+    margin: 30px;
+}
