@@ -3,10 +3,6 @@ body{
     margin: 0;
     background-color: rgb(168, 206, 168);
 }
-.abc{
-    height: 500px;
-    width: 500px;
-}
 .navbar{
     background-color: rgb(207, 232, 207); 
   height: 50px;
@@ -39,13 +35,27 @@ cursor: pointer;
 background-color: rgb(53, 123, 53);
 border-radius: 20px;
 color: black;
+color: white;
+}
+.navbar-menu-cobtainer a{
+text-decoration: none;
+cursor: pointer;
 }
 .navbar-menu:hover{
-    background-color:greenyellow;
+    background-color:rgb(173, 217, 106);
     box-shadow:0px 0px 5px 2px #fff;
     padding: 7px 25px;
     transition: 0.6s;
 }
+.navbar-menu-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
 .header-container{
     display: flex;
 justify-content: space-around;
@@ -70,4 +80,24 @@ flex-wrap: wrap;
 
 .header-title:hover{
     text-shadow: 0 0 10px gray;
+}
+.shop1{
+    margin-left: -450px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+}
+.shop-container{
+    display: flex;
+}
+.shop-menu{
+    margin-left: 70px;
+}
+.shop-img1{
+    height: 150px;
+    width: 200px;
+    margin: 30px;
 }
