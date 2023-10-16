@@ -71,8 +71,6 @@
             margin-left:30px;
             margin-right:30px;
            
-
-
         }
 
         .category-card-img{
@@ -84,9 +82,10 @@
 
         }
 
+        
 
         .best-seller-card{
-            background-color: rgb(245, 201, 201);
+            background-color: rgb(245, 205, 205);
             height:350px;
             border: solid 2px black;
             width: 200px;
@@ -96,7 +95,7 @@
         }
 
         .best-seller-card-img{
-            height: 110px;
+            height: 120px;
             display:block;
             margin-left:auto;
             margin-right:auto;
@@ -143,6 +142,24 @@
             justify-content: space-around;
         }
 
+        .relative{
+          position:relative;
+          top:-410px;
+          right:-1200px;
+          cursor:pointer;
+
+        }
+
+        .absolute{
+          position:absolute;
+
+
+        }
+
+        .addtocard-btn{
+            padding: 5px;
+        }
+
 
 
 
@@ -153,6 +170,7 @@
     </style>
 </head>
 <body>
+    
     <div class="heading"></div>
     <input placeholder="Search here" class="search-bar" class="text"/>
     <button class="search-btn">Search</button>
@@ -219,10 +237,10 @@
 
          <div class="best-seller-card">
             <h5 class="discount">18%OFF</h5>
-            <img class="best-seller-card-img" src="../Images/channa-dal-image.png"/>
-            <h2 class="best-seller-title">Channa Dal-500g </h2>
-            <del class="del-price">MRP:Rs70</del>
-            <p class="price">Fresh Price:Rs50 </p>
+            <img class="best-seller-card-img" src="../Images/dettol-handwash-bottel.png"/>
+            <h2 class="best-seller-title">Handwash-750ml </h2>
+            <del class="del-price">MRP:Rs85</del>
+            <p class="price">Fresh Price:Rs75 </p>
             <button class="addtocard-btn">Add to Card</button>
         </div>
 
@@ -230,10 +248,10 @@
 
          <div class="best-seller-card">
             <h5 class="discount">18%OFF</h5>
-            <img class="best-seller-card-img" src="../Images/channa-dal-image.png"/>
-            <h2 class="best-seller-title">Channa Dal-500g </h2>
-            <del class="del-price">MRP:Rs70</del>
-            <p class="price">Fresh Price:Rs50 </p>
+            <img class="best-seller-card-img" src="../Images/milk-pack-img.png"/>
+            <h2 class="best-seller-title">Amul milk-1l </h2>
+            <del class="del-price">MRP:Rs67</del>
+            <p class="price">Fresh Price:Rs61 </p>
             <button class="addtocard-btn">Add to Card</button>
         </div>
 
@@ -241,10 +259,10 @@
 
          <div class="best-seller-card">
             <h5 class="discount">18%OFF</h5>
-            <img class="best-seller-card-img" src="../Images/channa-dal-image.png"/>
-            <h2 class="best-seller-title">Channa Dal-500g </h2>
-            <del class="del-price">MRP:Rs70</del>
-            <p class="price">Fresh Price:Rs50 </p>
+            <img class="best-seller-card-img" src="../Images/almond-img.png"/>
+            <h2 class="best-seller-title">Almond-1kg </h2>
+            <del class="del-price">MRP:Rs1300</del>
+            <p class="price">Fresh Price:Rs1000 </p>
             <button class="addtocard-btn">Add to Card</button>
         </div>
 
@@ -252,11 +270,19 @@
 
          <div class="best-seller-card">
             <h5 class="discount">18%OFF</h5>
-            <img class="best-seller-card-img" src="../Images/channa-dal-image.png"/>
-            <h2 class="best-seller-title">Channa Dal-500g </h2>
-            <del class="del-price">MRP:Rs70</del>
-            <p class="price">Fresh Price:Rs50 </p>
+            <img class="best-seller-card-img" src="../Images/rice-image.png"/>
+            <h2 class="best-seller-title">Rice-3kg </h2>
+            <del class="del-price">MRP:Rs240.00</del>
+            <p class="price">Fresh Price:Rs225.00 </p>
             <button class="addtocard-btn">Add to Card</button>
+        </div>
+        </div >
+
+
+
+
+        <div class="relative">
+        <h3 class="absolute">Show more...</h3>
         </div>
 
 
@@ -265,8 +291,6 @@
 
 
 
-
-    </div>
     
 </body>
 </html>
