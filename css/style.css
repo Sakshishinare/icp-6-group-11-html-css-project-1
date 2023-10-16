@@ -1,15 +1,15 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(168, 206, 168);
+    background-color:aliceblue;
 }
 .navbar{
-    background-color: rgb(207, 232, 207); 
+    background-color: rgb(172, 214, 172); 
   height: 50px;
     padding: 11px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;       
+    flex-wrap: wrap;   
 }
 .navbar-icon{
     height: 50px;
@@ -26,13 +26,16 @@ body{
     font-weight: bold;
    margin-right: 200px;
 }
+.navbar-menu-cobtainer{
+    margin-left: 400px;
+}
 .navbar-menu{
 font-size: 20px;
-padding: 5px 20px;
+padding: 10px 20px;
 font-weight: bold;
-margin-left: 15px;
+margin-left: 20px;
 cursor: pointer;
-background-color: rgb(53, 123, 53);
+background-color: rgb(53, 123, 53);  
 border-radius: 20px;
 color: black;
 color: white;
@@ -57,7 +60,7 @@ justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
 }
-.shop-img{
+.background-img{
     width:1517px;
     height: 635px;
     margin-top: 2px;
@@ -73,32 +76,49 @@ flex-wrap: wrap;
 
 }
 
-
 .shop1{
     margin-left: -450px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     cursor: pointer;
 }
- a{
+
+a{
     text-decoration: none;
 }
 .shop-container{
- margin-top: 170px;
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    justify-content: space-around;
+    margin-top: 150px;
+   
+}
+.Shop-items{
+    border-radius: 15px;
+    border: 2px solid rgb(56, 55, 55);
+    height: 300px;
+    padding: 20px;
+    width: 300px;  
+    /* margin-top: 40px;   */
+    background-color: rgb(196, 237, 219);
+    box-shadow: 0 0 0 0.5px gray;
 }
 .shop-menu{
-    margin-left: 100px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
 }
 .shop-img1{
     height: 250px;
-    width: 300px;
-    margin: 30px;
+    display: block;
+    margin-left: 10px;
+}
+.shop-img2{
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+}
+.shop-img3{
+    height: 250px;
+    display: block;
+    margin-left: 10px;
 }
