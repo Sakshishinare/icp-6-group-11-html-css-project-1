@@ -1,9 +1,9 @@
-<style>
+
 body 
 {
 font-family:Arial; 
 background: -webkit-linear-gradient(to right, #14e5de, #e3e731); 
-background: linear-gradient(to right, #ee2273, #159957); 
+background: linear-gradient(to right, #b2ce96, #159957); 
 color:whitesmoke;
 
 }
@@ -103,7 +103,7 @@ body
 {
 font-family:sans-serif; 
 background: -webkit-linear-gradient(to right, #8dd831, #cde307);  
-background: linear-gradient(to right, #b515d9, #f30a0a); 
+background: linear-gradient(to right,); 
 color:whitesmoke;
 }
 
@@ -213,5 +213,3 @@ form{
 width: 20rem;
 }
 }
-
-</style>
