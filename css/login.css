@@ -7,6 +7,14 @@ background: linear-gradient(to right, #b2ce96, #159957);
 color:whitesmoke;
 
 }
+.navbar{
+    background-color: rgb(172, 214, 172); 
+  height: 50px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;   
+}
 input[type=text], input[type=password]{
 width: 100%;
 margin: 10px 0;
@@ -46,6 +54,8 @@ border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .headingsContainer{
 text-align: center;
+
+
 }
 .mainContainer{
 padding: 16px;
@@ -155,7 +165,7 @@ text-align: center;
 }
 
 .headingsContainer p{
-color: gray;
+color: rgb(242, 233, 233);
 }
 .mainContainer{
 padding: 16px;
