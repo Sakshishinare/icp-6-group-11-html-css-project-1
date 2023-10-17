@@ -1,0 +1,114 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(168, 206, 168);
+  
+        }
+        .navbar{
+    background-color: rgb(207, 232, 207); 
+  height: 50px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;       
+  }
+  .navbar-icon{
+    height: 50px;
+  }
+  .navbar-brand-name1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3, 142, 3);
+    font-weight: bold;
+   margin-left: 3px;
+  }.navbar-brand-name2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+   margin-right: 200px;
+  }
+  .navbar-menu{
+  font-size: 20px;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: rgb(53, 123, 53);
+  border-radius: 20px;
+  color: black;
+  color: white;
+  }
+  .navbar-menu-cobtainer a{
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .navbar-menu:hover{
+    background-color:rgb(173, 217, 106);
+    box-shadow:0px 0px 5px 2px #fff;
+    padding: 7px 25px;
+    transition: 0.6s;
+  }
+  .navbar-menu-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  .header-container{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  
+  .header-title{
+    margin-top: -600px;
+    margin-left: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    animation: textWave 3s infinite;
+  
+  }
+  
+  .header-title:hover{
+    text-shadow: 0 0 10px gray;
+  }
+  .slideshow{
+    width:550px;
+     height:550px;
+     border-radius:0px;
+     border: 2px solid green;
+     display: inline-block;
+     padding: 0px;
+     margin: 40px;
+  }
+  .header-c{
+    display: flex;
+    align-items: center;
+  }
+  .h1{
+    text-align: center;
+    color: rgb(4, 97, 38);
+    font-size: xx-large;
+    padding: auto;
+    margin: 20px;
+  
+  }
+  .descrption{
+    text-align: center;
+    color: rgb(178, 21, 21);
+  }
+  .button{
+    font-size: 10px;
+  padding: 3px 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(53, 123, 53);
+  border-radius: 10px;
+  color: black;
+  color: white;
+  }
