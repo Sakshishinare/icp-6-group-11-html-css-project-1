@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(204, 192, 176);
 
 }
 .card-container{
@@ -54,6 +55,7 @@ body{
 
 .vegetable-card{
 border: 2px solid black;
+background-color: rgb(185, 196, 196);
 width: 150px;
 height: 200px;
 padding: 5px;
@@ -131,7 +133,7 @@ margin-right: auto;
 
 }
 .img{
-height: 150px;
+height: 250px;
 width: 400px;
 }
 
