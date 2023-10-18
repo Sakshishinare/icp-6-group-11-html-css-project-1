@@ -122,3 +122,70 @@ a{
     display: block;
     margin-left: 10px;
 }
+
+
+
+      body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+        background-color:rgb(74, 254, 155) ;
+         display: block;
+         height: 300px;
+         
+        }
+        .footer-link{
+            color: black;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            left: 500px;
+            bottom: 190px;
+        }
+        .footer-about{
+            margin: 10px auto;
+            font-weight: bold;
+            height: 20px;
+            position: relative;
+            top: 25px;
+            text-align: justify;
+            left:80px ;
+            
+           
+        }
+        .footer-about-info{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 50px;
+            left: 10px;
+        }
+        .footer-contact{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            left: 500px;
+       }
+       .footer-cont{
+        position: relative;
+        left: 200px;
+        bottom: 380px;
+
+       }
+       .footer-email{
+        position: relative;
+        bottom: 315px;
+        left: 40px;
+       }
+       .footer-no{
+        position: relative;
+        bottom: 300px;
+       right: 208px;
+       }
+       .img-smi{
+        position: relative;
+        left: 70%;
+        bottom: 400px;
+ }
