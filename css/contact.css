@@ -1,12 +1,9 @@
-<html>
- <head>
-    <title>Contact us Page</title>
-    <style>
-.body{
-    margin: 0;
+body.
+    {
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
-}
+    }
  
 body{
     font-family: Arial, sans-serif;
@@ -165,51 +162,3 @@ footer {
         padding: 1rem;
     }
 }
-    </style>
-</head>
-<body>
-     <section class="banner">
-        <img src=
-        "https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
-            alt="Welcome to our Contact Us page">
-        <h1>Get in Touch With Us</h1>
-        <p>We're here to answer any questions you may have.</p>
-    </section>
- 
-    <section class="contact-form">
-        <div class="form-container">
-            <h2>Your Details</h2>
-            <form action="#" method="POST">
- 
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" required>
- 
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" required>
- 
-                <label for="phone">Phone: </label>
-                <input type="tel" id="phone" name="phone">
- 
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" rows="4" required></textarea>
- 
-                <button type="submit" class="submit-button">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <section class="contact-info">
-        <h2>Contact Information</h2>
-        <address>
-            Grocery and fruits<br>
-            465 Pune<br>
-            City<br>
-            Phone: <a href="tel:1234567890">123-456-7890</a><br>
-            Email: <a href="Grocery and fruits@example.com">info@example.com</a>
-        </address>
-    </section>
-    <footer>
-        <p>© 2023 Your Company. All rights reserved.</p>
-    </footer>
-    </body>
-</html>
