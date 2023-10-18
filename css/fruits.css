@@ -1,0 +1,362 @@
+
+:root{
+    --green: green;
+    --black: #130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:2rem solid rgba(0,0,0,0.1);
+    --outline:.1rem solid rgba(0,0,0,0.1);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: #eee;
+}
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading span{
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path:polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%) ;
+}
+.btn{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+.btn:hover{
+     background: var(--green);
+     color: #fff;
+}
+
+.section{
+    padding: 2rem 9%;
+}
+.home{
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    background: url(../images/fruit-banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.home .content{
+    border: 0px solid;
+    text-align: center;
+    width: 55rem;
+}
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+.home .content h3 span{
+    color: var(--green);
+}
+.home .content p{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+.header .logo{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--green);
+}
+.header .name{
+    color: var(--black);
+}
+
+.header .navbar{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+}
+.header .navbar a:hover{
+    color: var(--green);
+}
+.header .icons div{
+      height: 4.5rem;
+      width: 4.5rem;
+      line-height: 5rem;
+      border-radius: 5rem;
+      background: #eee;
+      color: var(--black);
+      font-size: 2rem;
+      margin-right: .3rem;
+      text-align: center;
+}
+.header .icons div:hover{
+    background: var(--green);
+    color: white;
+    cursor: pointer;
+}
+#menu-btn{
+    display: none;
+}
+.header .search-form{
+    border: 0px solid;
+    position: absolute;
+    top: 110%;
+    right:-110%;
+    width: 50rem;
+    height: 4.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow:var(--box-shadow) ;
+}
+
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1.5rem;
+}
+.header .search-form label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .search-form label:hover{
+    color: var(--green);
+}
+.features .box-container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+     gap: 1.5rem;
+}
+.features .box-container .box{
+    border: 0px solid red;
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.features .box-container .box:hover{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.features .box-container .box img{
+      margin:1rem 0;
+      height: 15rem;
+}
+.features .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+.features .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+ .heading1{
+    text-align: left;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading1 span{
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path:polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.fruit-card{
+    background-color: #fff;
+    width: 300px;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 10px rgba(0,0,0,0.2);
+}
+.fruit-card-img{
+    height: 150px;
+    flex-wrap: wrap;
+    display: block;
+    margin: 5px auto;
+    filter: drop-shadow(0px 0px 10px #ffcc00);
+}
+     .fruit-card:hover{
+        box-shadow: 1px 1px 10px 4px var(--green);
+
+     }
+     .icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color:var(); 
+     }
+
+.fruit-card-title{
+    text-align: center;
+    color: var(--green);
+    font-size: 25px;
+}
+.price{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+    text-align: center;
+
+}
+.stars{
+    font-size: 1.7rem;
+    color: orange;
+    padding: .5rem 0;
+    text-align: center;
+    justify-content: center;
+
+}
+.soption{
+    border: var(--green);
+}
+.fruit-card-price{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+.cart-btn{
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.cart-btn:hover{
+    background-color:var(--green);
+     color: #fff;
+    box-shadow: 2px 2px 7px var(--box-shadow);
+     padding: 5px 35px;
+     transition: 0.3s;
+}
+
+.fruits-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.b-container:hover{
+    border: 1px solid var(--green);
+}
+
+
+@media(max-width:991px){
+    .html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .section{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
