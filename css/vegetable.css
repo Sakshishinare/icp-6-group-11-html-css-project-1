@@ -249,3 +249,77 @@ width: 400px;
         
     }
     
+
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+    background-color:black;
+     display: block;
+     color: #f1f1f1;
+    
+     
+    }
+    .footer-link{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 500px;
+        bottom: 190px;
+        color: #f1f1f1;
+    }
+    .footer-about{
+        margin: 10px auto;
+        font-weight: bold;
+        height: 20px;
+        position: relative;
+        top: 25px;
+        text-align: justify;
+        left:80px ;
+        color: #f1f1f1;
+        
+       
+    }
+    .footer-about-info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 50px;
+        left: 10px;
+        color: #f1f1f1;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 500px;
+        color: #f1f1f1;
+   }
+   .footer-cont{
+    position: relative;
+    left: 200px;
+    bottom: 380px;
+    color: #f1f1f1;
+
+   }
+   .footer-email{
+    position: relative;
+    bottom: 315px;
+    left: 40px;
+    color: #f1f1f1;
+   }
+   .footer-no{
+    position: relative;
+    bottom: 300px;
+   right: 208px;
+   color: #f1f1f1;
+   }
+   .img-smi{
+    position: relative;
+    left: 70%;
+    bottom: 400px;
+}
