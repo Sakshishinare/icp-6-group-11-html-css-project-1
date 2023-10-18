@@ -302,6 +302,51 @@ body{
 .b-container:hover{
     border: 1px solid var(--green);
 }
+.footer .box-container{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+
+    gap: 1.5rem; 
+}
+.footer  .box-container  {
+    padding: 2.5rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden; 
+    background: #fff;
+    text-align: center;
+ }
+ 
+.footer .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--green);
+ }
+ .footer .box-container .box a {
+     display: block;
+     padding: .5rem 0;
+     font-size: 1.5rem;
+     color: var(--light-color);
+  }
+  .footer .box-container .box a:hover{
+     color: var(--green);
+     text-decoration: underline;
+  }
+  .footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem;
+    background: #fff;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .footer .credit span{
+     color: var(--green);
+  } 
+  
 
 
 @media(max-width:991px){
