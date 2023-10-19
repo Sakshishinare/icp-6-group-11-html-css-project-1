@@ -17,7 +17,7 @@ body{
 .navbar-brand-name1{
     text-align: center;
     font-size: 50px;
-    color: rgb(3, 142, 3);
+    color:rgb(14, 134, 14);
     font-weight: bold;
    margin-left: 3px;
 }.navbar-brand-name2{
@@ -35,10 +35,12 @@ padding: 10px 20px;
 font-weight: bold;
 margin-left: 20px;
 cursor: pointer;
-background-color: rgb(53, 123, 53);  
+background-color: black;  
 border-radius: 20px;
-color: black;
 color: white;
+}
+.navbar-menu:hover{
+    background-color: rgb(5, 92, 5);
 }
 .navbar-menu-cobtainer a{
 text-decoration: none;
@@ -101,6 +103,7 @@ a{
     /* margin-top: 40px;   */
     background-color: rgb(196, 237, 219);
     box-shadow: 0 0 0 0.5px gray;
+    margin-bottom: 40px;
 }
 .shop-menu{
     font-size: 20px;
@@ -123,4 +126,64 @@ a{
     margin-left: 10px;
 }
 
-
+@media screen and (min-width :500px) and (max-width: 768px){
+    .navbar-menu-cobtainer{
+        margin-left: 400px;
+    }
+    .navbar-menu{ 
+        padding: 5px 5px;
+        margin-left: 10px;
+        width: 200px;
+}
+.navbar-menu-list{
+   min-width: 160px;
+}
+.background-img{
+    width:600px;
+    height: 635px;
+    margin-top: 2px;
+}
+.header-title{
+    margin-top: -600px;
+    margin-left: 150px;
+    font-size: 70px;
+    width: 10px;
+    
+}
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: auto;
+    background-color: black;
+    height: 400px;
+}
+.footer-heading{
+    padding-top: 200px;
+    color: white;
+    font-size: 50px;
+}
+.footer-link{
+    padding-top: 150px;
+    color: white;
+}
+.footer-contact{
+    padding-top: 150px;
+    color: white;
+}
+.img-smi{
+    padding-top: 170px; 
+}
+.q-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footer-email{
+    font-size: 20px;
+}
+.footer-no{
+    font-size: 20px;
+}
