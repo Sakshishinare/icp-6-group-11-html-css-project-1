@@ -1,89 +1,139 @@
 
 body{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(168, 206, 168);
-  
-        }
-        .navbar{
-    background-color: rgb(207, 232, 207); 
-  height: 50px;
-    padding: 11px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;       
-  }
-  .navbar-icon{
-    height: 50px;
-  }
-  .navbar-brand-name1{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(3, 142, 3);
-    font-weight: bold;
-   margin-left: 3px;
-  }.navbar-brand-name2{
-    font-size: 50px;
-    color:black;
-    font-weight: bold;
-   margin-right: 200px;
-  }
-  .navbar-menu{
-  font-size: 20px;
-  padding: 5px 20px;
-  font-weight: bold;
-  margin-left: 15px;
-  cursor: pointer;
-  background-color: rgb(53, 123, 53);
-  border-radius: 20px;
-  color: black;
-  color: white;
-  }
-  .navbar-menu-cobtainer a{
-  text-decoration: none;
-  cursor: pointer;
-  }
-  .navbar-menu:hover{
-    background-color:rgb(173, 217, 106);
-    box-shadow:0px 0px 5px 2px #fff;
-    padding: 7px 25px;
-    transition: 0.6s;
-  }
-  .navbar-menu-list{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-  }
-  .header-container{
-    display: flex;
-  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background-color:aliceblue;
+}
+.navbar{
+  background-color: rgb(172, 214, 172); 
+height: 80px;
+  padding: 11px;
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  }
+  flex-wrap: wrap;   
+}
+.navbar-icon{
+  height: 50px;
+}
+.navbar-brand-name1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(3, 142, 3);
+  font-weight: bold;
+ margin-left: 3px;
+}.navbar-brand-name2{
+  font-size: 50px;
+  color:black;
+  font-weight: bold;
+ margin-right: 200px;
+}
+.navbar-menu-cobtainer{
+  margin-bottom: 5px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 10px 20px;
+font-weight: bold;
+margin-left: 20px;
+cursor: pointer;
+background-color: rgb(53, 123, 53);  
+border-radius: 20px;
+color: black;
+color: white;
+}
+.navbar-menu-cobtainer a{
+text-decoration: none;
+cursor: pointer;
+}
+
+.navbar-menu-list{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
-  .header-title{
-    margin-top: -600px;
-    margin-left: 150px;
-    font-size: 70px;
-    font-weight: bold;
-    animation: textWave 3s infinite;
-  
-  }
-  
-  .header-title:hover{
-    text-shadow: 0 0 10px gray;
-  }
+}
+
+.header-container{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.background-img{
+  width:1517px;
+  height: 635px;
+  margin-top: 2px;
+
+}
+
+.header-title{
+  margin-top: -600px;
+  margin-left: 150px;
+  font-size: 70px;
+  font-weight: bold;
+  animation: textWave 3s infinite;
+
+}
+
+.shop1{
+  margin-left: -450px;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+.shop-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+ 
+}
+.Shop-items{
+  border-radius: 15px;
+  border: 2px solid rgb(56, 55, 55);
+  height: 300px;
+  padding: 20px;
+  width: 300px;  
+  /* margin-top: 40px;   */
+  background-color: rgb(196, 237, 219);
+  box-shadow: 0 0 0 0.5px gray;
+}
+.shop-menu{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.shop-img1{
+  height: 250px;
+  display: block;
+  margin-left: 10px;
+}
+.shop-img2{
+  height: 250px;
+  display: block;
+  margin-left: 20px;
+}
+.shop-img3{
+  height: 250px;
+  display: block;
+  margin-left: 10px;
+}
+
+
+
   .slideshow{
     width:550px;
-     height:550px;
+     height:450px;
      border-radius:0px;
      border: 2px solid green;
      display: inline-block;
      padding: 0px;
-     margin: 40px;
+     margin: 20px;
   }
   .header-c{
     display: flex;
@@ -94,73 +144,188 @@ body{
     color: rgb(4, 97, 38);
     font-size: xx-large;
     padding: auto;
-    margin: 20px;
+    margin: 30px;
   
   }
   .descrption{
     text-align: center;
     color: rgb(178, 21, 21);
+    font-size:large
+   
   }
   .button{
     font-size: 10px;
   padding: 3px 10px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 300px;
   cursor: pointer;
   background-color: rgb(53, 123, 53);
   border-radius: 10px;
   color: black;
   color: white;
   }
-  <!--
-  .card{
-    height: 200px;
-    width: 350px;
-    padding: 20px;
-    margin: 30px;
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
-  .flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #108826  50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  p {
+    color: #575a7b;
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color:  #60eb79;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .btn{
+      size:30px;
+      color: #60eb79;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #7deb7d ;
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+  .head{
+    height: 70px;
+    width: 1280px;
+    background-color: #108826;
+    text-align: center;
+  }
+  .bottom{
+    margin-bottom: 150px;
+  
+  }
+  .section-heading{
+    color: red;
+  }
+  .sec{
+    color: #1f194c;
+  }
+  .card1{
+    margin-bottom: 100px;
+  }
+  .table{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .row1{
+    margin-bottom: 100px;
+  }
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  .footer .box-container{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+   gap: 1.5rem; 
+   margin-top: 100px;
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-}
--->
+.footer  .box-container  {
+    padding: 2.5rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden; 
+    background: #fff;
+    text-align: center;
+ }
+ 
+.footer .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--green);
+ }
+ .footer .box-container .box a {
+     display: block;
+     padding: .5rem 0;
+     font-size: 1.5rem;
+     color: var(--light-color);
+  }
+  .footer .box-container .box a:hover{
+     color: var(--green);
+     text-decoration: underline;
+  }
+  .footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem;
+    background: #fff;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .footer .credit span{
+     color: var(--green);
+  } 
