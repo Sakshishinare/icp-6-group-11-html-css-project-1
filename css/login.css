@@ -1,166 +1,116 @@
-.navbar{
-    background-color: rgb(172, 214, 172); 
-  height: 50px;
-    padding: 11px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;   
-}
-.navbar-icon{
-    height: 50px;
-}
-.navbar-brand-name1{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(3, 142, 3);
-    font-weight: bold;
-   margin-left: 3px;
-}.navbar-brand-name2{
-    font-size: 50px;
-    color:black;
-    font-weight: bold;
-   margin-right: 200px;
-}
-.navbar-menu-cobtainer{
-    margin-left: 400px;
-}
-.navbar-menu{
-font-size: 20px;
-padding: 10px 20px;
-font-weight: bold;
-margin-left: 20px;
-cursor: pointer;
-background-color: rgb(53, 123, 53);  
-border-radius: 20px;
-color: black;
-color: white;
-}
-.navbar-menu-cobtainer a{
-text-decoration: none;
-cursor: pointer;
-}
-
-.navbar-menu-list{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-}
 body {font-family: Arial, Helvetica, sans-serif;
-  position: fixed; 
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%; 
-  overflow: auto;
-  background-color: #474e5d;
-  padding-top: 50px;}
+position: fixed; 
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%; 
+overflow: auto;
+background-color: #475d51;
+padding-top: 50px;}
 * {box-sizing: border-box;}
 
 
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
 }
 
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+background-color: #ddd;
+outline: none;
 }
 
 
 button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
 }
 
 button:hover {
-  opacity:1;
+opacity:1;
 }
 
 
 .cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+padding: 14px 20px;
+background-color: #f44336;
 }
 
 
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+float: left;
+width: 50%;
 }
 
 .container {
-  padding: 16px;
+padding: 16px;
 }
 
 
 .modal {
-  
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #474e5d;
-  padding-top: 50px;
+
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: #56d752;
+padding-top: 50px;
 }
 
 
 .modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto;
-  border: 1px solid #888;
-  width: 80%;
+background-color: #fefefe;
+margin: 5% auto 15% auto;
+border: 1px solid #888;
+width: 50%;
 }
 
 
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
 }
- 
+
 
 .close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
+position: absolute;
+right: 35px;
+top: 15px;
+font-size: 40px;
+font-weight: bold;
+color: #f1f1f1;
 }
 
 .close:hover,
 .close:focus {
-  color: #f44336;
-  cursor: pointer;
+color: #f44336;
+cursor: pointer;
 }
 
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
+.cancelbtn, .signupbtn {
+   width: 100%;
+}
 }
