@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#80ff80;
+    
 }
     
 /*navbar*/
@@ -43,7 +43,7 @@ border-radius: 20px;
 color: black;
 color: white;
 }
-.navbar-menu-cobtainer a{
+.navbar-menu-cobtainer {
 text-decoration: none;
 cursor: pointer;
 }
@@ -156,12 +156,14 @@ width: 500px;
 display: flex;
 border-radius: 20px;
 
+
 }
 .veg-contanier{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-margin-right: 10%;
+margin-right: 20%;
+
 }
 
 
@@ -171,17 +173,17 @@ margin-right: 10%;
     background-color: white;
     padding: 5px;
     margin: 20px;
-    margin-right: 50px;
+    margin-right: 65px;
     box-shadow:0 2px 4px black ;
     display:inline-block;
     position:flex;
     flex-wrap: wrap;
     gap: 100px;
     justify-content: space-around ;
-    
     }
+   
     .vegetable-card-1:hover{
-        box-shadow: 0 0 2px #203920;
+        box-shadow: 0 0 5px  #b45c22;
         cursor: pointer;
     }
     .text-centre{
@@ -229,6 +231,9 @@ margin-right: 10%;
         cursor: pointer;
         
     }
+
+
+
 /* Media Queries */
 @media screen and (max-width: 600px) {
     /* Adjust styles for mobile devices */
@@ -344,7 +349,27 @@ margin-right: 10%;
     .header-description {
         font-size: 16px;
     }
+
+    /* Common styles for all screen sizes */
+
+/* Your existing CSS rules... */
+
+    .description {
+        text-align: center;
+        padding: 10px; /* Add some padding for better readability on small screens */
+    }
+
+    .header-title {
+        font-size: 30px; /* Reduce the font size for the title on mobile */
+        color: #090909;
+    }
+
+    .header-description {
+        font-size: 16px; /* Reduce the font size for the description on mobile */
+        color: black;
+    }
 }
+
 
 
 .all-container{
