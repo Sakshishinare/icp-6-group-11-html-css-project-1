@@ -50,10 +50,14 @@
         border-radius: 50%;
         }
         .btn{
+            
             background-color:wheat;
             font-style: normal;
-            width: 50px;
+            width: 80px;
             height: 50px;
+            border: 2px solid;
+            border-radius: 30px;
+            
             
         }
         .id{
@@ -65,4 +69,52 @@
             margin: 8px auto;
 
         }
+        .contact-info{
+            text-align: start;
+            height: 200px;
+            
+            background-color: lightpink;
+        }
+        .container{
+            height: 500px;
+            background-color: black;
+            display: flex;
+            flex:1;
+            flex-wrap: wrap;
+            
+        }
+        .img{
+            width: 150px;
+            position: relative;
+            padding: 20px;
+            border-radius: 40%;
+        }
+        .about-w{
+            display: inline;
+            margin-left:100px;
+            text-align: start;
+            height: 200px;
+            width: 150px;
+            color: white;
+        }
+        .heading{
+            color: aliceblue;
+        }
+       .container-image{
+        width: 150px;
+        border-radius: 40%;
+       }
+       .contact{
+        display: inline;
+        margin-left:100px;
+        text-align: start;
+        height: 200px;
+        width: 150px;
+        color: white;
+
+       }
+        
+
+        
+
         
