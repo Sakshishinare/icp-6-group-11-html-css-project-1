@@ -170,7 +170,7 @@ body {font-family: Arial, Helvetica, sans-serif;
       color: var(--green);
    } 
 
-    /* ===== Google Font Import - Poppins ===== */
+    
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
  
  *{
@@ -182,7 +182,7 @@ body {font-family: Arial, Helvetica, sans-serif;
  }
  
  
- /* ===== Colours ===== */
+ 
  :root{
      --body-color: #E4E9F7;
      --nav-color: #51da6c;
