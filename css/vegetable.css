@@ -23,7 +23,7 @@ body{
     color: rgb(3, 142, 3);
     font-weight: bold;
    margin-left: 3px;
-}.navbar-brand-name2{
+}.navbar-brand-name2{ 
     font-size: 50px;
     color:black;
     font-weight: bold;
@@ -234,9 +234,9 @@ margin-right: 20%;
 
 
 
-/* Media Queries */
+
 @media screen and (max-width: 600px) {
-    /* Adjust styles for mobile devices */
+    
     .navbar-brand-name1 {
         font-size: 36px;
     }
@@ -303,9 +303,9 @@ margin-right: 20%;
     color: black;
 }
 
-/* Media Queries */
+
 @media screen and (min-width: 601px) and (max-width:768px){
-    /* Adjust styles for mobile devices */
+    
     .navbar-brand-name1 {
         font-size: 36px;
     }
@@ -350,22 +350,19 @@ margin-right: 20%;
         font-size: 16px;
     }
 
-    /* Common styles for all screen sizes */
-
-/* Your existing CSS rules... */
-
+ 
     .description {
         text-align: center;
-        padding: 10px; /* Add some padding for better readability on small screens */
+        padding: 10px; 
     }
 
     .header-title {
-        font-size: 30px; /* Reduce the font size for the title on mobile */
+        font-size: 30px; 
         color: #090909;
     }
 
     .header-description {
-        font-size: 16px; /* Reduce the font size for the description on mobile */
+        font-size: 16px; 
         color: black;
     }
 }
@@ -393,9 +390,9 @@ margin-right: 20%;
 }
 
 
-/* Media Queries */
+
 @media only screen and (max-width: 600px) {
-    /* Adjust styles for mobile devices */
+    
     .navbar-brand-name1 {
         font-size: 36px;
     }
@@ -459,6 +456,11 @@ margin-right: 20%;
 
     }
 }
+
+
+
+
+
 @media screen and (min-width :500px) and (max-width: 768px){
     .navbar-menu-cobtainer{
         margin-left: 400px;
