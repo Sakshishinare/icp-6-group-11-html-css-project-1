@@ -83,6 +83,7 @@ flex-wrap: wrap;
     font-size: 25px;
     text-align: center;
     cursor: pointer;
+    
 }
 
 a{
@@ -126,31 +127,6 @@ a{
     margin-left: 10px;
 }
 
-@media screen and (min-width :500px) and (max-width: 768px){
-    .navbar-menu-cobtainer{
-        margin-left: 400px;
-    }
-    .navbar-menu{ 
-        padding: 5px 5px;
-        margin-left: 10px;
-        width: 200px;
-}
-.navbar-menu-list{
-   min-width: 160px;
-}
-.background-img{
-    width:600px;
-    height: 635px;
-    margin-top: 2px;
-}
-.header-title{
-    margin-top: -600px;
-    margin-left: 150px;
-    font-size: 70px;
-    width: 10px;
-    
-}
-}
 .footer-container{
     display: flex;
     flex-wrap: wrap;

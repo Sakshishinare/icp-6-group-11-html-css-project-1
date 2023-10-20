@@ -41,7 +41,7 @@ body{
         border-radius: 30px ;
         font-size:15px ;
         background-color:#357B35;
-        color:#ffff;
+        color:white;
     }
 
     .search-btn:hover{
@@ -105,7 +105,7 @@ body{
 
     .best-seller-card{
         background-color:#fff;
-        height:350px;
+        height:380px;
         
         width: 230px;
         margin: 10px;
@@ -142,6 +142,7 @@ body{
      width:55px;
      padding: 3px;
      border-radius: 5px;
+     
 
     }
 
@@ -170,6 +171,7 @@ body{
     .best-seller-container{
         display:flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .relative{
@@ -205,7 +207,7 @@ body{
 
     .discount-flex{
         margin-top:40px;
-        width:1220px;
+        width:1200px;
         height: 400px;
         margin-left: 70px;
         margin-right: 45px;
@@ -215,7 +217,6 @@ body{
     }
 
 
-<<<<<<< HEAD
     .brand-image{
         height:60px;
         border-radius: 60%;
@@ -284,7 +285,7 @@ body{
         margin-left:225px;
         margin-top: 10px;
         cursor:pointer;
-
+        
     }
 
     .heart:hover{
@@ -293,44 +294,65 @@ body{
     }
 
     .heart2{
-        margin-top:-50px;
-        margin-left:190px;
-
+      margin-top:-190px;
+       margin-left:190px;
+        
     }
-
+/*
     .flex-image{
-        width:900px;
+        margin-top:-100px;
+        width:400px;
         margin-top:0px;
        padding-top: 0px;;
     }
 
-    .flex-image2{
-        width:310px;
+    /*.flex-image2{
+        width:300px;
         height:300px;
+        
+    }
+   
+
+    .flex-image3{
+    margin-left: 1000px;
+    height:350px;
+    margin-bottom:130px;
+    }
+
+*/
+    .grocery-store-title{
+        font-weight: bolder;
+        color: #0aa40a;
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .flex-tagline{
+        font-size: 15px;
+    }
+
+    .flex-discription{
+        text-align: center;
+        padding-top: 130px;
+       
+       
+    }
+
+    .features{
+        background-color:green;
+        padding:5px;
+        color:white;
     }
 
 
-
-    
     
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+ /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    NAVBAR CSS     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
 .navbar{
 background-color: rgb(207, 232, 207); 
 height: 50px;
@@ -339,9 +361,7 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 margin:0px;
- 
-
-      
+     
 }
 .navbar-icon{
 height: 50px;
@@ -387,7 +407,176 @@ min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:768px){
+    .navbar{
+        background-color: rgb(207, 232, 207); 
+        height: 110px;
+        padding: 11px;
+        
+        align-items: center;
+        
+        margin:0px;
+    }
+
+
+    .navbar-menu{
+        flex-wrap:wrap;
+        display: block;
+
+        justify-content: center;
+        margin-left: 300px;;
+        margin-top: 5px;;
+       
     
+        
+        }
+
+        .navbar-brand-name1{
+            text-align: center;
+            font-size: 50px;
+            color: rgb(3, 142, 3);
+            font-weight: bold;
+            margin-left: 3px;
+            }
+            .navbar-brand-name2{
+            font-size: 60px;
+            color:black;
+            font-weight: bold;
+            margin-left:50px;
+            
+            }
+
+            .navbar-menu-list{
+
+               
+            }
+
+            .search-bar{
+                
+                 width: 465px;
+                 height:45px;
+                 font-size: 17px;
+                 border-radius:9px ;
+                 border-radius:30px 30px;
+                 
+                 margin-top:40px;
+                 
+                  
+            }
+
+
+            .category-card{
+                background-color:#fff;
+                width:200px;
+                flex-wrap: wrap;
+
+                margin-top: 20px;
+                cursor: pointer;
+                height:269px ;
+                box-shadow: #357B35;
+                box-shadow: 10px 20px 15px gray;
+                
+            }
+
+            .category-card-img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                height: 150px;
+                 
+         
+             }
+
+             .discount-flex{
+                margin-top:40px;
+                width:470px;
+                height: 400px;
+                margin-left: 6px;
+                margin-right: 0px;
+               
+               
+                border-radius: 20px;
+                background-color: #c2eec2;
+                border:none;
+            }
+
+
+            .best-seller-card{
+                background-color:#fff;
+                height:380px;
+                
+              
+                margin: 10px;
+                border-radius: 10px;
+                box-shadow:5px 10px 15px rgb(89, 129, 89);
+                
+        
+            }
+
+
+        }
+
+
+        @media screen and (min-width:500px) and (max-width:768px){
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+            @media screen and (width:768px) and (width:1200px){
+           
+                ..discount-flex{
+                    width:500px;
+
+
+                }
+
+                .search-btn{
+                   
+                    right:410px;
+                    
+                   
+                  
+                    
+                }
+            
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
