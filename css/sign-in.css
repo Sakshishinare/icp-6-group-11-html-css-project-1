@@ -29,8 +29,8 @@ outline: none;
 
 
 button {
-background-color: #04AA6D;
-color: white;
+background-color: #ece409;
+color: rgb(12, 12, 12);
 padding: 14px 20px;
 margin: 8px 0;
 border: none;
@@ -69,14 +69,14 @@ top: 0;
 width: 100%;
 height: 100%;
 overflow: auto;
-background: linear-gradient(to left, #c43ac4, #c71f1f); 
+background-color: #888;
 
 padding-top: 50px;
 }
 
 
 .modal-content {
-background-color: #fefefe;
+background-color: #7ae37e;
 margin: 5% auto 15% auto;
 border: 1px solid #888;
 width: 50%;
