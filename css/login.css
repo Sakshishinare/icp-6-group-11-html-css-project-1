@@ -1,171 +1,468 @@
 body {font-family: Arial, Helvetica, sans-serif;
-    position: fixed; 
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: auto;
-    background-color: #475d51;
-    padding-top: 50px;}
-    * {box-sizing: border-box;}
-    
-    
-    input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    }
-    
-    
-    input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-    }
-    
-    
-    button {
-    background-color: #f1e90d;
-    color: rgb(13, 13, 13);
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    }
-    
-    button:hover {
-    opacity:1;
-    }
-    
-    
-    .cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-    }
-    
-    
-    .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-    }
-    
-    .container {
-    padding: 16px;
-    }
-    
-    
-    .modal {
-    
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #888; 
-    padding-top: 50px;
-    }
-    .signtext{
-      text-align: center;
-      font-size: 25px;
-   }
-    
-    .modal-content {
-    background-color: #7ae37e;
-    margin: 5% auto 15% auto;
-    border: 1px solid #888;
-    width: 50%;
-    border-radius: 10px;
-    }
-    
-    
-    hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-    }
-    
-    
-    .close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-    }
-    
-    .close:hover,
-    .close:focus {
-    color: #f44336;
-    cursor: pointer;
-    }
-    
-    
-    .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
-    
-    @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-    }
-    .para{
-       text-align: center;
-       color: rgb(16, 44, 228);
-       font-size: 15px;
-       margin-top: -10px;
-    }
-
-    .footer .box-container{
-      display: grid;
-      grid-template-columns:repeat(4, 1fr);
-  
-      gap: 1.5rem; 
-  }
-  .footer  .box-container  {
-      
-      border-radius: .5rem;
-      
-      position: relative;
-      overflow: hidden; 
-      background: #151414;
-      text-align: center;
+   position: fixed; 
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%; 
+   overflow: auto;
+   background-color: #475d51;
+   padding-top: 50px;}
+   * {box-sizing: border-box;}
+   
+   
+   input[type=text], input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
    }
    
-  .footer .box-container .box h3{
+   
+   input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+   }
+   
+   
+   button {
+   background-color: #f1e90d;
+   color: rgb(13, 13, 13);
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+   }
+   
+   button:hover {
+   opacity:1;
+   }
+   
+   
+   .cancelbtn {
+   padding: 14px 20px;
+   background-color: #f44336;
+   }
+   
+   
+   .cancelbtn, .signupbtn {
+   float: left;
+   width: 50%;
+   }
+   
+   .container {
+   padding: 16px;
+   }
+   
+   
+   .modal {
+   
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: #81ef7f; 
+   padding-top: 45px;
+   }
+   .signtext{
+     text-align: center;
+     font-size: 25px;
+  }
+   
+   .modal-content {
+   background-color: #7ae37e;
+   margin: 5% auto 15% auto;
+   border: 2px solid #df1313;
+   width: 50%;
+   border-radius: 5px;
+   }
+   
+   
+   hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+   }
+   
+   
+   .close {
+   position: absolute;
+   right: 35px;
+   top: 15px;
+   font-size: 40px;
+   font-weight: bold;
+   color: #f1f1f1;
+   }
+   
+   .close:hover,
+   .close:focus {
+   color: #f44336;
+   cursor: pointer;
+   }
+   
+   
+   .clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+   }
+   
+   @media screen and (max-width: 300px) {
+   .cancelbtn, .signupbtn {
+      width: 100%;
+   }
+   }
+   .para{
+      text-align: center;
+      color: rgb(16, 44, 228);
+      font-size: 15px;
+      margin-top: -10px;
+   }
+
+   .footer .box-container{
+     display: grid;
+     grid-template-columns:repeat(4, 1fr);
+ 
+     gap: 1.5rem; 
+ }
+ .footer  .box-container  {
+     
+     border-radius: .5rem;
+     
+     position: relative;
+     overflow: hidden; 
+     background: #151414;
+     text-align: center;
+  }
+  
+ .footer .box-container .box h3{
+     padding: .5rem 0;
+     font-size: 1.5rem;
+     color: white;
+  }
+  .footer .box-container .box a {
+      display: block;
       padding: .5rem 0;
       font-size: 1.5rem;
       color: white;
    }
-   .footer .box-container .box a {
-       display: block;
-       padding: .5rem 0;
-       font-size: 1.5rem;
-       color: white;
-    }
-    .footer .box-container .box a:hover{
-       color: rgb(241, 245, 249);
-       text-decoration: underline;
-    }
-    .footer .credit{
-      text-align: center;
-      border-top: .1rem solid rgba(0,0,0,.1);
-      font-size: 2rem;
-      color: rgb(252, 9, 9);
-      padding: .5rem;
-      background: #fff;
-      padding-top: 1.5rem;
-      margin-top: 1.5rem;
-    }
-    .footer .credit span{
-       color: var(--green);
-    } 
+   .footer .box-container .box a:hover{
+      color: rgb(15, 126, 238);
+      text-decoration: underline;
+   }
+   .footer .credit{
+     text-align: center;
+     border-top: .1rem solid rgba(0,0,0,.1);
+     font-size: 2rem;
+     color: rgb(252, 9, 9);
+     padding: .5rem;
+     background: #fff;
+     padding-top: 1.5rem;
+     margin-top: 1.5rem;
+   }
+   .footer .credit span{
+      color: var(--green);
+   } 
+
+    /* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     transition: all 0.4s ease;;
+ }
+ 
+ 
+ /* ===== Colours ===== */
+ :root{
+     --body-color: #E4E9F7;
+     --nav-color: #51da6c;
+     --side-nav: #010718;
+     --text-color: #111111;
+     --search-bar: #F2F2F2;
+     --search-text: #010718;
+ }
+ 
+ body{
+     height: 100vh;
+     background-color: var(--body-color);
+ }
+ 
+ body.dark{
+     --body-color: #18191A;
+     --nav-color: #242526;
+     --side-nav: #242526;
+     --text-color: #CCC;
+     --search-bar: #242526;
+ }
+ 
+ nav{
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 70px;
+     width: 100%;
+     background-color:  #51da6c;
+     z-index: 100;
+ }
+ 
+ body.dark nav{
+     border: 1px solid #393838;
+ 
+ }
+ 
+ nav .nav-bar{
+     position: relative;
+     height: 100%;
+     max-width: 1000px;
+     width: 100%;
+     background-color: var(--nav-color);
+     margin: 0 auto;
+     padding: 0 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ nav .nav-bar .sidebarOpen{
+     color: var(--text-color);
+     font-size: 25px;
+     padding: 5px;
+     cursor: pointer;
+     display: none;
+ }
+ 
+ nav .nav-bar .logo a{
+     font-size: 25px;
+     font-weight: 500;
+     color: var(--text-color);
+     text-decoration: none;
+ }
+ 
+ .menu .logo-toggle{
+     display: none;
+ }
+ 
+ .nav-bar .nav-links{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .nav-bar .nav-links li{
+     margin: 0 5px;
+     list-style: none;
+ }
+ 
+ .nav-links li a{
+     position: relative;
+     font-size: 17px;
+     font-weight: 400;
+     color: var(--text-color);
+     text-decoration: none;
+     padding: 10px;
+ }
+ .fresh{
+   color: red;
+   font-size: 35px;
+
+ }
+ 
+ .nav-links li a::before{
+     content: '';
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: translateX(-50%);
+     height: 6px;
+     width: 6px;
+     border-radius: 50%;
+     background-color: var(--text-color);
+     opacity: 0;
+     transition: all 0.3s ease;
+ }
+ 
+ .nav-links li:hover a::before{
+     opacity: 1;
+ }
+ 
+ .nav-bar .darkLight-searchBox{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .darkLight-searchBox .dark-light,
+ .darkLight-searchBox .searchToggle{
+     height: 40px;
+     width: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 5px;
+ }
+ 
+ .dark-light i,
+ .searchToggle i{
+     position: absolute;
+     color: var(--text-color);
+     font-size: 22px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+ 
+ .dark-light i.sun{
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ .dark-light.active i.sun{
+     opacity: 1;
+     pointer-events: auto;
+ }
+ 
+ .dark-light.active i.moon{
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ .searchToggle i.cancel{
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ .searchToggle.active i.cancel{
+     opacity: 1;
+     pointer-events: auto;
+ }
+ 
+ .searchToggle.active i.search{
+     opacity: 0;
+     pointer-events: none;
+ }
+ 
+ .searchBox{
+     position: relative;
+ }
+ 
+ .searchBox .search-field{
+     position: absolute;
+     bottom: -85px;
+     right: 5px;
+     height: 50px;
+     width: 300px;
+     display: flex;
+     align-items: center;
+     background-color: var(--nav-color);
+     padding: 3px;
+     border-radius: 6px;
+     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+     opacity: 0;
+     pointer-events: none;
+     transition: all 0.3s ease;
+ }
+ 
+ .searchToggle.active ~ .search-field{
+     bottom: -74px;
+     opacity: 1;
+     pointer-events: auto;
+ }
+ 
+ .search-field::before{
+     content: '';
+     position: absolute;
+     right: 14px;
+     top: -4px;
+     height: 12px;
+     width: 12px;
+     background-color: var(--nav-color);
+     transform: rotate(-45deg);
+     z-index: -1;
+ }
+ 
+ .search-field input{
+     height: 100%;
+     width: 100%;
+     padding: 0 45px 0 15px;
+     outline: none;
+     border: none;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 400;
+     color: var(--search-text);
+     background-color: var(--search-bar);
+ }
+ 
+ body.dark .search-field input{
+     color: var(--text-color);
+ }
+ 
+ .search-field i{
+     position: absolute;
+     color: var(--nav-color);
+     right: 15px;
+     font-size: 22px;
+     cursor: pointer;
+ }
+ 
+ body.dark .search-field i{
+     color: var(--text-color);
+ }
+ 
+ @media (max-width: 790px) {
+     nav .nav-bar .sidebarOpen{
+         display: block;
+     }
+ 
+     .menu{
+         position: fixed;
+         height: 100%;
+         width: 320px;
+         left: -100%;
+         top: 0;
+         padding: 20px;
+         background-color: var(--side-nav);
+         z-index: 100;
+         transition: all 0.4s ease;
+     }
+ 
+     nav.active .menu{
+         left: -0%;
+     }
+ 
+     nav.active .nav-bar .navLogo a{
+         opacity: 0;
+         transition: all 0.3s ease;
+     }
+ 
+     .menu .logo-toggle{
+         display: block;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+     .logo-toggle .siderbarClose{
+         color: var(--text-color);
+         font-size: 24px;
+         cursor: pointer;
+     }
+ 
+     .nav-bar .nav-links{
+         flex-direction: column;
+         padding-top: 30px;
+     }
+ 
+     .nav-links li a{
+         display: block;
+         margin-top: 20px;
+     }
+ }
