@@ -9,15 +9,64 @@ body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
- 
-header {
+.navbar{
+    background-color: rgb(172, 214, 172); 
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 11px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    height: 4rem;
+    flex-wrap: wrap;   
+}
+.navbar-icon{
+    height: 50px;
+}
+.navbar-brand-name1{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(14, 134, 14);
+    font-weight: bold;
+   margin-left: 3px;
+}
+.navbar-brand-name2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+   margin-right: 200px;
+}
+.navbar-menu-cobtainer{
+    margin-left: 400px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 10px 20px;
+padding-top: 10px;
+font-weight: bold;
+margin-left: 20px;
+cursor: pointer;
+background-color: black;  
+border-radius: 20px;
+color: white;
+}
+.navbar-menu:hover{
+    background-color: rgb(5, 92, 5);
+}
+.navbar-menu-cobtainer a{
+text-decoration: none;
+cursor: pointer;
+}
+
+.navbar-menu-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
 }
  
 .logo {
@@ -61,13 +110,15 @@ nav ul li a:hover {
 .banner {
     text-align: center;
     background-color: rgb(172, 214, 172); ;
-    margin: 0 auto;
+    margin: bottom;
+    
 }
  
 .banner img {
     max-width: 100%;
     height: auto;
     border-radius: 15px ;
+    margin-top: 200px;
 }
 
 .contact-form {
@@ -162,4 +213,27 @@ footer {
         flex-direction: row;
         padding: 1rem;
     }
+    .submit-button{
+        display: block;
+        margin-left: 40px;
+    }
+    .navbar-brand-name2{
+        display: block;
+        margin: 40px;
+    }
+    
+    .navbar-brand-name1{
+        display: block;
+        margin: 50px;
+    }
+    .navbar-icon{
+        display: block;
+        margin: 50px;
+    }
+    .navbar-menu-cobtainer{
+        display: block;
+        margin: 40px;
+        flex-direction: row`;
+    }    
+
 }
