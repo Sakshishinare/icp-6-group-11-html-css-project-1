@@ -42,7 +42,7 @@ nav ul li a {
 }
  
 nav ul li a:hover {
-    background-color: #0dac30;
+    background-color: rgb(172, 214, 172); ;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 .banner {
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(172, 214, 172); ;
     margin: 0 auto;
 }
  
@@ -73,7 +73,7 @@ nav ul li a:hover {
 .contact-form {
     padding: 40px 0;
     margin: 0 10px;
-    background-color: antiquewhite;
+    background-color: rgb(172, 214, 172); ;
 }
  
 .form-container {
@@ -114,12 +114,13 @@ nav ul li a:hover {
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
+    margin-left: 200px;
 }
  
 .contact-info {
     text-align: center;
     padding: 50px 0;
-    background-color: lightpink;
+    background-color:skyblue;
 }
  
 .contact-info h2 {
