@@ -41,7 +41,7 @@ body{
         border-radius: 30px ;
         font-size:15px ;
         background-color:#357B35;
-        color:#ffff;
+        color:white;
     }
 
     .search-btn:hover{
@@ -205,7 +205,7 @@ body{
 
     .discount-flex{
         margin-top:40px;
-        width:1220px;
+        width:1200px;
         height: 400px;
         margin-left: 70px;
         margin-right: 45px;
@@ -215,7 +215,6 @@ body{
     }
 
 
-<<<<<<< HEAD
     .brand-image{
         height:60px;
         border-radius: 60%;
@@ -284,7 +283,7 @@ body{
         margin-left:225px;
         margin-top: 10px;
         cursor:pointer;
-
+        
     }
 
     .heart:hover{
@@ -293,22 +292,54 @@ body{
     }
 
     .heart2{
-        margin-top:-50px;
-        margin-left:190px;
-
+       margin-top:-150;
+       margin-left:190px;
+        
     }
 
     .flex-image{
-        width:900px;
+        margin-top:-100px;
+        width:400px;
         margin-top:0px;
        padding-top: 0px;;
     }
 
-    .flex-image2{
-        width:310px;
+    /*.flex-image2{
+        width:300px;
         height:300px;
+        
+    }
+    */
+
+    .flex-image3{
+    margin-left: 1000px;
+    height:350px;
+    margin-bottom:130px;
     }
 
+    .grocery-store-title{
+        font-weight: bolder;
+        color: #0aa40a;
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .flex-tagline{
+        font-size: 15px;
+    }
+
+    .flex-discription{
+        text-align: center;
+        padding-top: 130px;
+       
+       
+    }
+
+    .features{
+        background-color:green;
+        padding:5px;
+        color:white;
+    }
 
 
     
