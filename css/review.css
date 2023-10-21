@@ -96,16 +96,13 @@ article p {
     font-family: system-ui;
 }
 .navbar{
-    
-    background-color: rgb(207, 232, 207); 
-    height: 50px;
+    background-color: rgb(172, 214, 172); 
+  height: 50px;
     padding: 11px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    margin:0px;
-         
-    }
+    flex-wrap: wrap;    
+ }
     .navbar-icon{
     height: 50px;
     }
