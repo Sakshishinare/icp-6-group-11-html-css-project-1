@@ -1,36 +1,233 @@
-.footer-container{
+@font-face {
+  font-family: head;
+  src: url(../fonts/normal.ttf);
+}
+
+@font-face {
+  font-family: para;
+  src: url(../fonts/paragraph.ttf);
+}
+
+/* @font-face {
+  font-family: foot;
+  src: url(../fonts/normal.ttf);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 1vh;
+  /* background-color: #000; */
+  font-family: foot;
+  background-color: black;
+  color:#fff;
+  height: 350px;
+  width: 100%;
+  line-height: 3vw;
+  /* width: 5vw; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5vw;
+}
+
+.address {
+  position: relative;
+  right: 2.4vw;
+}
+
+.address p {
+  font-size: 2vw;
+  width: 30vw;
+  font-family: para;
+}
+
+
+.address h1 {
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  font-weight: 00;
+  margin-bottom: 1vw;
+}
+
+.address .social-icon i {
+  font-size: 2.5vw;
+  margin: 0vw 1.5vw;
+  color: black;
+
+}
+
+.address i:hover {
+  background-color: #BBD0FF;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.footer a {
+  font-weight: 600;
+  font-size: 1.5vw;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.footer a:hover {
+  border-bottom: 2px solid #8f01ff;
+  scale: 0.88;
+}
+
+.quicklinks,
+.usefulllinks,
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.usefulllinks {
+  position: relative;
+  left: 1.5vw;
+}
+
+.footer h1 {
+  font-size: 2vw;
+  color: #757cb2;
+  display: inline-block;
+}
+
+.newsletter {
+  position: relative;
+  left: 3vw;
+}
+
+.newsletter h3 {
+  color: linear-gradient(to right, #da291c, #8f01ff);
+  font-weight: 500;
+  font-size: 2.4vw;
+  margin: 1vw 0;
+}
+
+.newsletter input {
+  font-size: 1.4vw;
+  padding: 1vw 2vw;
+  border: 1px solid #8f01ff;
+}
+
+
+
+@media (max-width: 600px) {
+
+  .footer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer h1 {
+    display: block;
+    border: none;
+    margin: 5vw 0;
+  }
+
+  .address h1 {
+    display: block;
+    border: none;
+    margin: 5vw 0;
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+
+  .address p {
+    font-size: 6vw;
+    line-height: 5vw;
+    width: 100%;
+  }
+
+  .address i {
+    font-size: 8vw;
+    padding-top: 4vw;
+  }
+
+  .quicklinks {
+    margin-top: 10vw;
+    display: block;
+  }
+
+  .quicklinks h1 {
+    font-size: 7vw;
+  }
+
+  .quicklinks a {
+    line-height: 1vw;
+    display: block;
+    margin: 5vw;
+    font-size: 4.5vw;
+  }
+
+  .usefulllinks h1 {
+    font-size: 6vw;
+  }
+
+  .usefulllinks {
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: auto;
-    background-color: black;
-    height: 250px;
-}
-.footer-heading{
-    padding-top: 20px;
-    color: white;
-    font-size: 50px;
-}
-.footer-link{
-    padding-top: 20px;
-    color: white;
-}
-.footer-contact{
-    padding-top: 20px;
-    color: white;
-}
-.img-smi{
-    padding-top: 30px; 
-}
-.q-link {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-}
-.footer-email{
-    font-size: 20px;
-}
-.footer-no{
-    font-size: 20px;
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  .usefulllinks a {
+    margin-left: 4vw;
+    font-size: 4.5vw;
+  }
+
+  .newsletter {
+    margin-top: 3vw;
+  }
+
+  .newsletter h1 {
+    font-size: 7vw;
+  }
+
+  .newsletter h3 {
+    font-size: 3vw;
+    margin-bottom: 4vw;
+    margin-left: 3vw;
+  }
+
+  .newsletter input {
+    font-size: 4vw;
+    display: inline-block;
+
+  }
+
+
+  .newsletter button {
+    font-size: 5vw;
+  }
+
+
+  .newsletter button:hover {
+    scale: 1;
+
+    cursor: none;
+  }
+
+  .footer a:hover {
+    border-bottom: none;
+    scale: 1;
+  }
+
+
+  .address i:hover {
+    background-color: #000;
+    font-size: 8vw;
+    cursor: pointer;
+  }
+
+
+
 }
