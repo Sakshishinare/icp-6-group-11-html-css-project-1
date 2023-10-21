@@ -1,36 +1,47 @@
-.footer-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: auto;
-    background-color: black;
-    height: 250px;
-}
-.footer-heading{
-    padding-top: 20px;
-    color: white;
-    font-size: 50px;
-}
-.footer-link{
-    padding-top: 20px;
-    color: white;
-}
-.footer-contact{
-    padding-top: 20px;
-    color: white;
-}
-.img-smi{
-    padding-top: 30px; 
-}
-.q-link {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-}
-.footer-email{
-    font-size: 20px;
-}
-.footer-no{
-    font-size: 20px;
-}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>footer</title>
+  
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<div class="footer-main">
+
+    <div class="footer">
+
+      <div class="address">
+        <h1>Freshshop</h1>
+
+      </div>
+      <div class="quicklinks">
+        <h1>Quick links</h1>
+
+        <a href="./index.html">Home</a>
+        <a href="./pages/cources.html">About</a>
+        <a href="./pages/about.html">login</a>
+        <a href="./pages/contact-us.html">Review</a>
+        
+      </div>
+       &nbsp;&nbsp;
+      <div class="usefullinks">
+        <h1>Contact us</h1>
+          <br/>
+        <a href="./index.html">Email-info:-freshshop431@gmail.com</a>
+        <br/>
+        <a href="./index.html">Phone no:-123-456-789</a>
+      </div>
+      <div>
+        <ul class="footer-icons">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+             <li> <a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+      </div>
+  <script src="https://kit.fontawesome.com/90fb78d75b.js" crossorigin="anonymous"></script>
+</body>
+</html>
