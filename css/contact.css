@@ -20,7 +20,7 @@ body{
     padding: 11px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
 }
 .navbar-icon{
     height: 50px;
