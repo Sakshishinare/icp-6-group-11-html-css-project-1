@@ -146,369 +146,171 @@ font-size: 30px;
 margin-top:50px;
 margin-left: 30px;
 text-align: center;
-
-
-}
-.vegetable-card{
-background-color: rgb(240, 245, 245);
-height: 400px;
-width: 500px;
-display: flex;
-border-radius: 20px;
-
-
-}
-.veg-contanier{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin-right: 20%;
-
 }
 
+ /*vegetable cards */   
+     
+   /* card container*/
+   .best-seller-container{
+    display:flex;
+    justify-content: space-between;
+}
+   .best-seller-card{
+    background-color:#fff;
+    height:400px;
+    
+    width: 300px;
+    margin: 10px;
+    border-radius:5px ;
+    box-shadow:5px 10px 15px rgb(89, 129, 89);
+}
+.best-seller-card:hover{
 
-/*vegetable cards */
-.vegetable-card-1{
-    border: 2px solid black;
-    background-color: white;
-    padding: 5px;
-    margin: 20px;
-    margin-right: 65px;
-    box-shadow:0 2px 4px black ;
-    display:inline-block;
-    position:flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    justify-content: space-around ;
-    }
-   
-    .vegetable-card-1:hover{
-        box-shadow: 0 0 5px  #b45c22;
-        cursor: pointer;
-    }
-    .text-centre{
+    box-shadow: 0px 0px 10px  	#99ff33; 
+}
+
+.heart2{
+    position: relative;
+    left: 240px;
+    bottom: 50px;
+}
+
+.best-seller-card-img{
+    height: 120px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.best-seller-card-img:hover{
+    border-radius: 10px;
+    filter: drop-shadow( 0px 0px 10px rgb(190, 206, 18));
+}
+
+.best-seller-title{
     text-align: center;
-    
-    }
-    .btn{
-    background-color: aliceblue;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    }
-    .img{
-    padding: 1px;
-    margin-top: 30px;
-    height: 250px;
-    width: 400px;
-    }
-    
-    .discount{
-        position: absolute;
-        color:black;
-        padding: 2px;
-        font-size: 30px;
-    }
-    .price{
-        text-align: center;
-        font-weight: bold ;
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .quntity{
-        text-align: center;
-    
-    }
-    .btn{
-        height: 30px;
-        font-weight: bold;
-        font-size: 20px;
-        background-color: #b3ff66;
-        cursor: pointer;
-        
-    }
-
-
-
-
-@media screen and (max-width: 600px) {
-    
-    .navbar-brand-name1 {
-        font-size: 36px;
-    }
-
-    .navbar-brand-name2 {
-        font-size: 36px;
-        margin-right: 20px;
-    }
-
-    .navbar-menu-cobtainer {
-        margin-left: 100px;
-    }
-
-    .navbar-menu {
-        font-size: 18px;
-        padding: 10px 15px;
-        margin-left: 10px;
-    }
-
-    .discount {
-        font-size: 24px;
-    }
-
-    .price {
-        font-size: 24px;
-    }
-
-    .quntity {
-        font-size: 16px;
-    }
-
-    .btn {
-        font-size: 16px;
-        padding: 5px 10px;
-    }
-
-    .header-title {
-        font-size: 30px;
-    }
-
-    .header-description {
-        font-size: 16px;
-    }
+    margin-bottom:10px;
 }
-
-
-.all-container{
-    background-color:#80ff80;
-    padding: 0;
-    margin: 0;
-}
-
-.description{
-    text-align: center;
-}
-
-.header-title{
-    font-size: 50px;
-    color: #090909;
-    
-}
-.header-description{
-    font-size: 20px;
-    color: black;
-}
-
-
-@media screen and (min-width: 601px) and (max-width:768px){
-    
-    .navbar-brand-name1 {
-        font-size: 36px;
-    }
-
-    .navbar-brand-name2 {
-        font-size: 36px;
-        margin-right: 20px;
-    }
-
-    .navbar-menu-cobtainer {
-        margin-left: 100px;
-    }
-
-    .navbar-menu {
-        font-size: 18px;
-        padding: 10px 15px;
-        margin-left: 10px;
-    }
-
-    .discount {
-        font-size: 24px;
-    }
-
-    .price {
-        font-size: 24px;
-    }
-
-    .quntity {
-        font-size: 16px;
-    }
-
-    .btn {
-        font-size: 16px;
-        padding: 5px 10px;
-    }
-
-    .header-title {
-        font-size: 30px;
-    }
-
-    .header-description {
-        font-size: 16px;
-    }
-
+.discount1{
+    margin-left:8px;
  
-    .description {
-        text-align: center;
-        padding: 10px; 
-    }
+ width:55px;
+ padding: 3px;
 
-    .header-title {
-        font-size: 30px; 
-        color: #090909;
-    }
-
-    .header-description {
-        font-size: 16px; 
-        color: black;
-    }
 }
 
+.discount{
+ margin-left:8px;
+ background-color:red;
+ color: #090909;
+ width:55px;
+ padding: 3px;
 
 
-.all-container{
-    background-color:#80ff80;
-    padding: 0;
-    margin: 0;
 }
 
-.description{
+.price{
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .quntity{
+text-align: center;
+
+}
+
+.addtocard-btn{
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+   color: black;
+   background-color: #fff;
+
+}
+.addtocard-btn:hover{
+    background-color: black;
+    border:none;
+    color:white;
+}
+
+
+.relative{
+  position:relative;
+  top:-410px;
+  right:-1200px;
+  cursor:pointer;
+}
+
+.relative:hover{
+    
+}
+
+.absolute{
+  position:absolute;
+
+
+}
+
+.addtocard-btn{
+    padding: 5px;
+    background-color: #bbcd17;
+    border:none;
+    border-radius: 5PX;
+    margin-top: 5px;
+    padding: 7px;
+    width:100px;
+}
+
+.discount-flex{
+    margin-top:40px;
+    width:1200px;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 45px;
+    border-radius: 20px;
+    background-color: #c2eec2;
+    border:none;
+}
+
+/*about */
+.description{
+text-align: center;
 }
 
 .header-title{
-    font-size: 50px;
-    color: #090909;
-    
+font-size: 50px;
+color: #090909;
+
 }
 .header-description{
-    font-size: 20px;
-    color: black;
+font-size: 20px;
+color: black;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-    
-    .navbar-brand-name1 {
-        font-size: 36px;
-    }
-
-    .navbar-brand-name2 {
-        font-size: 36px;
-        margin-right: 20px;
-    }
-
-    .navbar-menu-cobtainer {
-        margin-left: 100px;
-    }
-
-    .navbar-menu {
-        font-size: 18px;
-        padding: 10px 15px;
-        margin-left: 10px;
-    }
-
-    .discount {
-        font-size: 24px;
-    }
-
-    .price {
-        font-size: 24px;
-    }
-
-    .quntity {
-        font-size: 16px;
-    }
-
-    .btn {
-        font-size: 16px;
-        padding: 5px 10px;
-    }
-
-    .header-title {
-        font-size: 30px;
-    }
-
-    .header-description {
-        font-size: 16px;
-    }
-
-    .card-container{
-        background-color: rgb(172, 194, 194);
-        display: block;
-    height: 200px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border: solid 0.5px black
-    
-    
-
-    }
-    .img-veg{
-        height: 200px;
-        width: 400px;
-
-    }
-}
-
-
-
-
-
-@media screen and (min-width :500px) and (max-width: 768px){
-    .navbar-menu-cobtainer{
-        margin-left: 400px;
-    }
-    .navbar-menu{ 
-        padding: 5px 5px;
-        margin-left: 10px;
-        width: 200px;
-}
-.navbar-menu-list{
-   min-width: 160px;
-}
-.background-img{
-    width:600px;
-    height: 635px;
-    margin-top: 2px;
-}
-.header-title{
-    margin-top: -600px;
-    margin-left: 150px;
-    font-size: 70px;
-    width: 10px;
-    
-}
-}
+/*footer*/
 .footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: auto;
     background-color: black;
-    height: 400px;
+    height: 250px;
 }
 .footer-heading{
-    padding-top: 200px;
+    padding-top: 20px;
     color: white;
     font-size: 50px;
 }
 .footer-link{
-    padding-top: 150px;
+    padding-top: 20px;
     color: white;
 }
 .footer-contact{
-    padding-top: 150px;
+    padding-top: 20px;
     color: white;
 }
 .img-smi{
-    padding-top: 170px; 
+    padding-top: 30px; 
 }
 .q-link {
     text-decoration: none;
@@ -523,9 +325,56 @@ margin-right: 20%;
     font-size: 20px;
 }
 
+
+@media only screen and (max-width:600px) {
+     
+    .card-container{
+        background-color: rgb(172, 194, 194);
+        height: 200px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: solid 0.5px black   
+    }
+
+    .img-veg{
+        height: 200px;
+        width: 500px;
+}
+.best-seller-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+}
+
+}
+
+@media only screen and (min-width:601px) and (max-width:768px){
+
+    
+    .card-container{
+        background-color: rgb(172, 194, 194);
+        height: 300px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: solid 0.5px black   
+    }
+
+    .img-veg{
+        height: 300px;
+        width: 600px;
+}
+.best-seller-container{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+
     
 
-
-
-
-
+}
