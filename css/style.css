@@ -21,9 +21,7 @@ body{
     font-weight: bold;
    margin-left: 3px;
 }
-.navbar-brand-name1:hover{
-text-shadow: 0 0 10px gray;
-}
+
 .navbar-brand-name2{
     font-size: 50px;
     color:black;
@@ -79,9 +77,10 @@ flex-wrap: wrap;
     font-size: 70px;
     font-weight: bold;
     animation: textWave 3s infinite;
-
 }
-
+.header-title:hover{
+    text-shadow: 0 0 10px gray;
+}
 .shop1{
     margin-left: -450px;
     font-size: 25px;
