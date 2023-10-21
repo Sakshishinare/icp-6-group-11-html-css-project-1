@@ -219,7 +219,7 @@ body{
 
     .brand-image{
         height:60px;
-        border-radius: 60%;
+        color:rgb(170, 165, 165,1);
 
     }
 
@@ -232,7 +232,7 @@ body{
 
         margin:50px;
         margin-top: 89px;;
-        height: 70px;
+        height: 80px;
         background-color:#c2eec2;
 
         display:flex;
@@ -278,6 +278,10 @@ body{
         border-radius: 10px;
         box-shadow:5px 10px 15px rgb(89, 129, 89);
         
+    }
+
+    .product-category-card:hover{
+        box-shadow:10px 10px 15px #357B35;
     }
 
     .heart{
@@ -412,7 +416,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 
 
-@media screen and (min-width:500px) and (max-width:768px){
+@media screen and  (max-width:633px){
     .navbar{
         background-color: rgb(207, 232, 207); 
         height: 110px;
@@ -518,12 +522,88 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         
             }
 
+            .search-btn{
+                position: absolute;
+                top:175px;
+                right:5px;
+                
+                
+                
+            }
+
 
         }
 
 
-        @media screen and (min-width:500px) and (max-width:768px){
+        @media screen and (min-width:633px) and (max-width:657px){
 
+            .discount-flex{
+                margin-top:40px;
+                width:630px;
+                height: 400px;
+                margin-left: 6px;
+                margin-right: 0px;
+               
+               
+                border-radius: 20px;
+                background-color: #c2eec2;
+                border:none;
+            }
+
+            .category-card{
+                background-color:#fff;
+                width:250px;
+                flex-wrap: wrap;
+
+                
+            }
+
+            .category-card-img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                height: 165px;
+                 
+         
+             }
+
+             .navbar{
+                background-color: rgb(207, 232, 207); 
+                height: 110px;
+                padding: 11px;
+                
+                align-items: center;
+                
+                margin:0px;
+            }
+        
+        
+            .navbar-menu{
+                flex-wrap:wrap;
+                display: block;
+        
+                justify-content: center;
+                margin-left: 500px;;
+                margin-top: 5px;;
+               
+            
+                
+                }
+        
+                .navbar-brand-name1{
+                    text-align: center;
+                    font-size: 50px;
+                    color: rgb(3, 142, 3);
+                    font-weight: bold;
+                    margin-left: 3px;
+                    }
+                    .navbar-brand-name2{
+                    font-size: 50px;
+                    color:black;
+                    font-weight: bold;
+                    margin-left:30px;
+                    
+                    }
 
 
 
@@ -542,10 +622,15 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
             @media screen and (width:768px) and (width:1200px){
            
-                ..discount-flex{
-                    width:500px;
-
-
+                .discount-flex{
+                    margin-top:40px;
+                    width:400px;
+                    height: 400px;
+                   
+                   
+                   
+                    
+    
                 }
 
                 .search-btn{
