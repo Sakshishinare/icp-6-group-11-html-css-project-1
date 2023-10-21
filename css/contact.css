@@ -40,6 +40,9 @@ body{
 }
 .navbar-menu-cobtainer{
     margin-left: 400px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 400px;
 }
 .navbar-menu{
 font-size: 20px;
@@ -109,9 +112,9 @@ nav ul li a:hover {
 }
 .banner {
     text-align: center;
-    background-color: rgb(172, 214, 172); ;
+    background-color: rgb(196, 237, 219);
     margin: bottom;
-    
+    border-radius: 10px;
 }
  
 .banner img {
@@ -124,7 +127,7 @@ nav ul li a:hover {
 .contact-form {
     padding: 40px 0;
     margin: 0 10px;
-    background-color: rgb(172, 214, 172); ;
+    background-color: rgb(196, 237, 219);
 }
  
 .form-container {
@@ -224,7 +227,8 @@ footer {
     
     .navbar-brand-name1{
         display: block;
-        margin: 50px;
+        
+        margin-bottom: 20px;
     }
     .navbar-icon{
         display: block;
@@ -233,7 +237,12 @@ footer {
     .navbar-menu-cobtainer{
         display: block;
         margin: 40px;
-        flex-direction: row`;
+        flex-direction: row;
+        margin-bottom: 400px;
     }    
-
+    .img-smi{
+        display: block;
+        margin-left: 50px;
+        margin-bottom: 1000px;
+    }
 }
